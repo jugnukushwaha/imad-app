@@ -1,15 +1,20 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
-    margin-top: 75px;
+    margin-top: 40px;
 }
 
 .center {
     text-align: center;
 }
 
-.text-big {
-    font-size: 300%;
+.text-big 
+.div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 200%;
 }
 
 .bold {
@@ -17,6 +22,6 @@ body {
 }
 
 .img-medium {
-    height: 200px;
+    height: 300px;
 }
 
