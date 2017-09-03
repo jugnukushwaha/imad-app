@@ -18,6 +18,13 @@ var articleone={
                         Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
                         </p>'
 };
+function craeteTemplate(data){
+    var title=data.title;
+    var heading=data.heading;
+    var date=data.date;
+    var content=data.content;
+     
+
 var htmlTemplate=`
 <html>
     <head>
@@ -46,13 +53,15 @@ var htmlTemplate=`
             </body>
 </html>
 
-`
+`;
+return htmlTemplate;
+}
 
-app.get('/', function (req, res) {
+app.get('/', function (req, res) { 
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/article-one', function (req, res){
- res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+ res.send(craeteTemplate(articleone));
 });
 app.get('/article-two', function (req, res){
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html')); 
