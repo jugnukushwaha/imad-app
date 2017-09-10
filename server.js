@@ -42,11 +42,9 @@ var articles = {
     heading: 'Article Three ',
     date: 'Sep 12 , 2017',
     content: `   <p>
-                        Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
+                        Hey,this is jugnu kumar and i am writing my third article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
                         </p>
-                       <p>
-                        Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
-                        </p>
+                      
                          <p>
                         Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
                         </p>
