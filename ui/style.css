@@ -20,6 +20,7 @@ body {
 
 .img-medium {
     height: 300px;
+
 }
                 .container{
                     max-width:800px;
@@ -33,4 +34,9 @@ body {
 p{
     color: green;
     
+}
+.img-small{
+    height :300px;
+    margin-top:40px;
+    margin-left: 200px;
 }
