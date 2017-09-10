@@ -4,7 +4,9 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-var articleone={
+var articles = {
+    
+articleone :{
     title: 'Article one | Jungu kumar',
     heading: 'Article one ',
     date: 'NOV 30 , 2017',
@@ -18,7 +20,41 @@ var articleone={
                         Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
                         </p>
                         `
+},
+articletwo: {
+     title: 'Article one | Jungu kumar',
+    heading: 'Article one ',
+    date: 'NOV 30 , 2017',
+    content: `   <p>
+                        Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
+                        </p>
+                       <p>
+                        Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
+                        </p>
+                         <p>
+                        Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
+                        </p>
+                        `
+    
+},
+articlethree:{
+     title: 'Article one | Jungu kumar',
+    heading: 'Article one ',
+    date: 'NOV 30 , 2017',
+    content: `   <p>
+                        Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
+                        </p>
+                       <p>
+                        Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
+                        </p>
+                         <p>
+                        Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
+                        </p>
+                        `
+    
+}
 };
+
 function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
