@@ -22,11 +22,11 @@ var articles = {
                         `
 },
 'article-two': {
-     title: 'Article one | Jungu kumar',
-    heading: 'Article one ',
-    date: 'NOV 30 , 2017',
+     title: 'Article Two | Jungu kumar',
+    heading: 'Article Two ',
+    date: 'Sep 10 , 2017',
     content: `   <p>
-                        Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
+                        Hey,this is jugnu kumar and i am writing my second article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
                         </p>
                        <p>
                         Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
@@ -38,9 +38,9 @@ var articles = {
     
 },
 'article-three':{
-     title: 'Article one | Jungu kumar',
-    heading: 'Article one ',
-    date: 'NOV 30 , 2017',
+     title: 'Article Three | Jungu kumar',
+    heading: 'Article Three ',
+    date: 'Sep 12 , 2017',
     content: `   <p>
                         Hey,this is jugnu kumar and i am writing my first article. Before starting this ,let me introduce myself . my name is jugnu kumar .I am a 3rd year computer science student in srm university ramapuram,chennai,india.
                         </p>
