@@ -5,13 +5,13 @@ element.innerHTML='Hi,i have made some changes here...';
 //move the image
 var img= document.getElementById('me');
 var marginleft=0;
-function moveright()
+function moveRight()
 {
-    marginleft = marginleft + 10;
-    img.style.marginleft=marginleft + 'px';
+    marginLeft = marginLeft + 10;
+    img.style.marginLeft=marginLeft + 'px';
     
 }
 img.onclick = function()
 {
-var interval = setinterval(moveright,100); 
+var interval = setinterval(moveRight,100); 
 };
