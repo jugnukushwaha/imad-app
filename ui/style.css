@@ -12,6 +12,7 @@ body {
     margin : 20px 20px 10px 10px;
     font-size: 200%;
     color: blue;
+    text-align: center;
 }
 
 .bold {
@@ -20,8 +21,9 @@ body {
 
 .img-medium {
     height: 300px;
-     margin-top:20px;
+     margin-top:10px;
     margin-left: 500px;
+    
 
 
 }
@@ -38,7 +40,6 @@ p{
     color: green;
     
 }
-.img-small{
-    height :300px;
+
    
-}
+
