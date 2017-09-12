@@ -6,5 +6,5 @@ element.innerHTML='Hi,i have made some changes here...';
 var img= document.getElementById('me');
 img.onclick = function()
 {
- img.style.marginright='100px';   
+ img.style.margin ='100px';   
 };
