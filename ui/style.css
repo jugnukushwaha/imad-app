@@ -20,6 +20,8 @@ body {
 
 .img-medium {
     height: 300px;
+     margin-top:40px;
+    margin-left: 200px;
 
 
 }
@@ -38,6 +40,5 @@ p{
 }
 .img-small{
     height :300px;
-    margin-top:40px;
-    margin-left: 200px;
+   
 }
