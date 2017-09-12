@@ -4,7 +4,14 @@ var element=document.getElementById('main-text');
 element.innerHTML='Hi,i have made some changes here...';
 //move the image
 var img= document.getElementById('me');
+var marginleft=0;
+functionright()
+{
+    marginleft=marginleft+10;
+    img.style.marginleft=marginleft + 'px';
+    
+}
 img.onclick = function()
 {
- img.style.margin ='100px';   
+var interval=setinterval(moveright,100); 
 };
