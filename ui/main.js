@@ -3,12 +3,12 @@ console.log('Loaded!');
 var element=document.getElementById('main-text');
 element.innerHTML='Hi,i have made some changes here...';
 //move the image
-var img= document.getElementById('me');
+var img= document.getElementById('main-file');
 var marginLeft=0;
 function moveRight()
 {
     marginLeft = marginLeft + 10;
-    img.style.marginLeft    = marginLeft + 'px';
+    img.style.marginLeft = marginLeft + 'px';
     
 }
 img.onclick = function()
