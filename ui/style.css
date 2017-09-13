@@ -22,7 +22,7 @@ body {
 .img-medium {
     height: 300px;
      margin-top:10px;
-    margin-left: 500px;
+    margin-left: 300px;
     
 
 
@@ -30,7 +30,6 @@ body {
                 .container{
                     max-width:800px;
                     margin : 0 auto;
-                    color: grey;
                     font-family: arial;
                     padding-top:60px;
                     padding-left:20px;
